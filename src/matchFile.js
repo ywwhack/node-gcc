@@ -28,7 +28,7 @@ export async function getAllCFilesInDir(curDir) {
   let stats = await Promise.all(statsPromises);
   for(let i=0; i<stats.length; i++) {
     if(extname(files[i]) == '.c') {
-      foundCFiles.push(files[i]);
+      foundCFiles.push(resolve(curDir, files[i]));
     }
     if(stats[i].isDirectory() && files[i]!='node_modules') {
       try{
