@@ -1,0 +1,26 @@
+{
+  "name": "node-gcc",
+  "version": "1.0.0",
+  "description": "a tool for gcc compile",
+  "main": "lib/index.js",
+  "bin": {
+    "node-gcc": "lib/index.js"
+  },
+  "dependencies": {
+    "fs-promise": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gcc"
+  ],
+  "repository": {
+    "url": "https://github.com/ywwhack/node-gcc"
+  },
+  "author": "ywwhack",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-runtime": "^6.0.14"
+  }
+}
