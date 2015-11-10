@@ -7,6 +7,7 @@
     "node-gcc": "lib/index.js"
   },
   "dependencies": {
+    "babel-runtime": "^6.0.14",
     "fs-promise": "^0.3.1"
   },
   "scripts": {
@@ -19,8 +20,5 @@
     "url": "https://github.com/ywwhack/node-gcc"
   },
   "author": "ywwhack",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-runtime": "^6.0.14"
-  }
+  "license": "ISC"
 }
