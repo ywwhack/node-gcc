@@ -1,6 +1,6 @@
 {
   "name": "node-gcc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a tool for gcc compile",
   "main": "lib/index.js",
   "bin": {
